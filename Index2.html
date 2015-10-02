@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+<head>
+	<title>Primer taller html 5</title>
+	<meta charset="utf-8" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<style type="text/css">
+		.titulo
+		{
+
+			font-size: xx-large;
+		    color: blue;
+
+		}
+		.contenido
+		{
+			font-style: italic;
+		    font-weight: inherit;
+		    background-color: aqua;
+		}
+	</style>
+	<script type="text/javascript">
+
+		$(".boton").click(function(event){
+		   
+		    alert('boton');
+		});
+		
+	</script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td class='contenido'>
+				<h2>Titilo de contenidos<h2>
+				<p> Contenido (ademas de imagenes, citas, videos etc.) </p>	  
+			</td>
+			<td>
+				 <input class="boton" type="submit" value="Submit" >
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
